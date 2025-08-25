@@ -1,0 +1,54 @@
+/* Fuentes */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-name {
+  font-family: 'Great Vibes', cursive;
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  text-align: center;
+  margin: 0;
+  color: #fff;
+}
+.hero-name span {
+  color: gold;
+}
+
+.hero-subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #e0e0e0;
+  margin-top: 10px;
+}
+
+/* Barra de navegación centrada */
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+}
+.menu.centered {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+  padding: 0;
+}
+.menu.centered a {
+  font-weight: 600;
+  color: #fff;
+  transition: color .3s;
+}
+.menu.centered a:hover {
+  color: gold;
+}
+
+/* Fondo gradiente deportivo */
+.gradient-bg {
+  background: linear-gradient(135deg, #005bea 0%, #00c6fb 100%);
+  color: white;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
